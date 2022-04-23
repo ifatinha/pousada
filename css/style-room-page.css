@@ -1,0 +1,29 @@
+.container-pageQuartos {
+    background     : linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('../assets/img/hotel.jpg');
+    height         : 450px;
+    background-size: cover;
+}
+
+.container-tiposQuartos__textos {
+    display       : flex;
+    flex-direction: column;
+    text-align    : left;
+    width         : 80%;
+    margin        : 2% auto;
+    flex-wrap     : wrap;
+}
+
+.container-tiposQuartos__textos h3 {
+    text-align: center;
+}
+
+.container-tiposQuartos__textos ul {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    align-items    : flex-end;
+}
+
+.container-tiposQuartos__textos ul li {
+    margin: 2%;
+}

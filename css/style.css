@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=PT+Sans+Narrow&family=Raleway:wght@100&family=Roboto+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family     : 'Lato', sans-serif;
+    background-color: #f4f2f3;
+}
+
+header {
+    position        : fixed;
+    width           : 100%;
+    background-color: #00405c;
+    /*background    : rgba(76, 175, 80, 0.3);*/
+}
+
+.container-topo {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    padding        : 1%;
+}
+
+.container-topo__direita h1 a span {
+    color: #ffffff;
+}
+
+.container-topo__direita h1 a {
+    text-transform: uppercase;
+    color         : #6c9794;
+}
+
+.container-topo__esquerda {
+    padding   : 0.7%;
+    text-align: center;
+}
+
+.container-topo__esquerda a {
+    text-transform: uppercase;
+    font-size     : 1.2em;
+    color         : #ffffff;
+    padding       : 0 15px;
+}
+
+.container-topo__esquerda a:hover {
+    color: #c0cdc8;
+}
+
+.container-principal {
+    background     : url("../assets/img/hotel.jpg") no-repeat center;
+    background-size: cover;
+    height         : 720px;
+}
+
+.container-principal__textos {
+    background   : rgba(0, 64, 92, 0.3);
+    width        : 40%;
+    position     : absolute;
+    padding      : 6%;
+    text-align   : center;
+    left         : 32%;
+    top          : 32%;
+    border-radius: 1%;
+}
+
+.container-principal__textos h2,
+p {
+    color: #ffffff;
+}
+
+.container-principal__textos h2 {
+    font-size: 3.0em;
+}
+
+.container-principal__textos p {
+    font-size : 1.2em;
+    margin-top: 5%;
+}
+
+.container-hotel {
+    display       : flex;
+    flex-direction: row;
+}
+
+.container-hotel_textos {
+    min-width: 30%;
+}
+
+.container-hotel_textos h3 {
+    font-size     : 2em;
+    margin        : 3% 0 0 3%;
+    color         : #00626c;
+    text-transform: uppercase;
+}
+
+.container-hotel_textos p {
+    color      : #00405c;
+    line-height: 25px;
+    text-align : justify;
+    padding    : 2% 2% 0 2%;
+}
+
+.container-hotel__img {
+    min-width: 70%;
+}
+
+.container-hotel__img img {
+    width: 100%;
+}
+
+.container-padrao {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.container-textos {
+    padding: 2%;
+}
+
+.container-textos h3 {
+    font-size     : 1.8em;
+    color         : #00626c;
+    text-transform: uppercase;
+}
+
+.container-textos p {
+    color  : #00405c;
+    padding: 2%;
+}
+
+.container-quartos__imgs {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+}
+
+.container-quartos__imgs-card {
+    display       : flex;
+    flex-direction: column;
+    width         : 30%;
+    border-bottom : 2px solid #00405c;
+}
+
+.container-quartos__imgs-card a {
+    color         : #00405c;
+    text-transform: uppercase;
+    margin        : 3% 0 3% 0;
+}
+
+.container-quartos__imgs-card img {
+    width: 100%;
+}
+
+.container-lazer {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    margin-top     : 3%;
+}
+
+.container-lazer__card {
+    display       : flex;
+    flex-direction: row;
+    margin-bottom : 3%;
+}
+
+.container-lazer__card-textos {
+    min-width : 30%;
+    text-align: center;
+    padding   : 10% 2% 2% 0;
+}
+
+.container-lazer__card-textos h4 {
+    font-size: 2.02em;
+    color    : #00405c;
+}
+
+.container-lazer__card-textos p {
+    color: #00405c;
+}
+
+.container-lazer__card-img {
+    min-width: 70%;
+}
+
+.container-lazer__card-img img {
+    width: 100%;
+}
+
+.container-galeria img {
+    width: 100%;
+}
+
+.container-rota__mapa {
+    margin: 0 0 8% 0;
+}
+
+.container-rota__mapa iframe {
+    min-width: 100%;
+}
+
+footer {
+    background-color: #00405c;
+    display         : flex;
+    flex-direction  : column;
+}
+
+.container-footer {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+    border-bottom  : 1px solid #c0cdc8;
+    width          : 80%;
+    margin         : auto;
+    padding        : 1% 0 2% 0;
+}
+
+.container-footer__contato-titulo,
+.container-footer__contato-endereco,
+.container-footer__contato-telefone,
+.container-footer__contato-reserva {
+    margin   : 3% 2% 0 2%;
+    max-width: 20%;
+}
+
+.container-footer p,
+.container-footer a {
+    color    : #f4f2f3;
+    font-size: 0.9em;
+}
+
+.container-footer img {
+    width : 16px;
+    height: 16px;
+}
+
+.container-footer__paragrafo {
+    margin    : 2% 0 2% 0;
+    font-size : 0.8em;
+    text-align: center;
+}
